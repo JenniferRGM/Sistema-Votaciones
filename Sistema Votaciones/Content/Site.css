@@ -1,0 +1,136 @@
+﻿/* Estilo general del cuerpo de la pagina*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Fondo azul claro */
+}
+
+/* Estilos para el menú vertical*/
+.menu-vertical {
+    width: 200px;
+    float: left;
+    background-color: #ffcdd2; /* Fondo rojo claro */
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Elimina los puntos de la lista del menú */
+    .menu-vertical ul {
+        list-style-type: none;
+        padding: 0;
+    }
+/* Estilos para los elementos de la lista del menú */
+        .menu-vertical ul li {
+            margin: 10px 0;
+        }
+/* Estilos para los enlaces del menú */
+            .menu-vertical ul li a {
+                text-decoration: none;
+                color: #000;
+                padding: 10px;
+                display: block;
+                background-color: #f4f4f4;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+/* Cambia el fondo al pasar el cursor sobre los enlaces del menú */
+                .menu-vertical ul li a:hover {
+                    background-color: #ddd;
+                }
+/* Estilo del contenido principal, incluye margen para dar espacio al menú  */
+#MainContent {
+    margin-left: 220px;
+    padding: 20px;
+}
+/* Estilo para los contenedores principales */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+/* Estilo para formularios */
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+}
+/* Estilo para los grupos de formularios*/
+.form-group {
+    margin-bottom: 15px;
+}
+/*Estilo para las etiquetas de los formularios */
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+/*Estilo para los controles de los formularios*/
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+/* Centrar texto */
+.text-center {
+    text-align: center;
+}
+/* Estilo pra los botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+/* Cambia el color de fondo de los botones al pasar el cursor */
+    .btn:hover {
+        background-color: #0056b3;
+    }
+/* Cambia el color de fondo de los botones al hacer click */
+    .btn:active {
+        background-color: #003d82;
+        transform: translateY(2px);
+    }
+/* Estilo para la tabla de resultados */
+.tabla-resultados {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+/* Estilo para las celdad de la tabla de resultados */
+    .tabla-resultados th, .tabla-resultados td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+/* Estilo para las cabeceras de la tabla de resultados */
+    .tabla-resultados th {
+        background-color: #4CAF50;
+        color: white;
+    }
+/* Color de fondo para las filas pares de la tabla de resultados */
+    .tabla-resultados tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+/* Cambia el color de fondo al pasar el cursor sobre las filas de la tabla */
+    .tabla-resultados tr:hover {
+        background-color: #ddd;
+    }
+/* Estilo especial para resaltar al ganador */
+.ganador {
+    background-color: #ffeb3b !important; /* Amarillo */
+}
+/* Estilo para centrar la tabla */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

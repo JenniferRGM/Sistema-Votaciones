@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Sistema_Votaciones.Site" %>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="menu-vertical">
+            <ul>
+                <li><a href="Default.aspx">Inicio</a></li>
+                <li><a href="IngresarCandidatos.aspx">Ingresar Candidatos</a></li>
+                <li><a href="Votaciones.aspx">Votaciones</a></li>
+                <li><a href="Resultados.aspx">Resultados</a></li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </form>
+</body>
+</html>
